@@ -1,6 +1,6 @@
 --Functions and Procedures Exercises
 
---Part I – Queries for SoftUni Database
+--Part I â€“ Queries for SoftUni Database
    USE SoftUni
 
 --Problem 1. Employees with Salary Above 35000
@@ -91,7 +91,7 @@ RETURNS BIT
 
 --08. * Delete Employees and Departments
 
---PART II – Queries for Bank Database
+--PART II â€“ Queries for Bank Database
 USE Bank
 
 --9. Find Full Name
@@ -148,7 +148,7 @@ CREATE PROC usp_CalculateFutureValueForAccount(@AccountId INT,@InterestRate FLOA
 	  WHERE a.Id = @AccountId
   END
 
---PART III – Queries for Diablo Database
+--PART III â€“ Queries for Diablo Database
  GO
 USE Diablo
 
